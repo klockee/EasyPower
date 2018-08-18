@@ -3,10 +3,8 @@
 
 #include <switch.h>
 
-int main(int argc, char **argv)
+int main()
 {
-    gfxInitDefault();
-    consoleInit(NULL);
     bpcInitialize();
     bpcRebootSystem();
     return 0;
