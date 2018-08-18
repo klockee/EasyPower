@@ -5,6 +5,7 @@
 
 int main(int argc, char **argv)
 {
+    gfxInitDefault();
     consoleInit(NULL);
     bpcInitialize();
     bpcRebootSystem();
