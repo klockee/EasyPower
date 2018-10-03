@@ -30,6 +30,12 @@ include $(DEVKITPRO)/libnx/switch_rules
 #     - icon.jpg
 #     - <libnx folder>/default_icon.jpg
 #---------------------------------------------------------------------------------
+APP_TITLE := EasyPower
+APP_AUTHOR := klock
+APP_VERSION := 0.2
+APP_TITLEID := 0104561737950000
+ICON := icon.jpg
+
 TARGET		:=	$(notdir $(CURDIR))
 BUILD		:=	build
 SOURCES		:=	source
